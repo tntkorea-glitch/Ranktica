@@ -32,7 +32,7 @@ export default function LoginPage() {
       <div className="w-full max-w-sm">
         <Link href="/" className="flex items-center justify-center gap-2 mb-8">
           <TrendingUp className="w-8 h-8 text-accent" />
-          <span className="text-2xl font-bold">판다랭크</span>
+          <span className="text-2xl font-bold">Ranktica</span>
         </Link>
 
         <form onSubmit={handleSubmit} className="bg-white rounded-xl border border-border p-6 space-y-4">
