@@ -2,7 +2,7 @@
 
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
-import { Search, PenTool, Crown, User, Settings, TrendingUp } from 'lucide-react'
+import { Search, PenTool, Crown, User, Settings, TrendingUp, Stethoscope, FileSearch, BarChart3 } from 'lucide-react'
 import { useAuth } from '@/hooks/useAuth'
 
 const NAV_ITEMS = [
