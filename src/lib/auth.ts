@@ -2,7 +2,7 @@ import { SignJWT, jwtVerify } from 'jose'
 import { cookies } from 'next/headers'
 
 const JWT_SECRET = new TextEncoder().encode(
-  process.env.JWT_SECRET || 'ranktica-jwt-secret-change-in-production'
+  process.env.JWT_SECRET || 'datica-jwt-secret-change-in-production'
 )
 const COOKIE_NAME = 'ranktica-token'
 
