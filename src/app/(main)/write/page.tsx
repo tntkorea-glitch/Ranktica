@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect, useRef } from 'react'
+import { useState, useEffect, useRef, Suspense } from 'react'
 import { useSearchParams } from 'next/navigation'
 import { PenTool, Copy, Check, Hash, Save } from 'lucide-react'
 import Header from '@/components/Header'
