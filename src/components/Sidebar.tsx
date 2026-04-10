@@ -8,6 +8,9 @@ import { useAuth } from '@/hooks/useAuth'
 const NAV_ITEMS = [
   { href: '/keyword', label: '키워드 분석', icon: Search },
   { href: '/write', label: 'AI 글쓰기', icon: PenTool },
+  { href: '/diagnose/blog', label: '블로그 진단', icon: Stethoscope },
+  { href: '/diagnose/post', label: '게시글 진단', icon: FileSearch },
+  { href: '/rank', label: '순위 추적', icon: BarChart3 },
   { href: '/membership', label: '멤버십', icon: Crown },
   { href: '/mypage', label: '마이페이지', icon: User },
 ]
