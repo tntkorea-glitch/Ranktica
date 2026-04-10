@@ -16,6 +16,14 @@ const TONES = [
 const WORD_COUNTS = [500, 1000, 1500, 2000, 3000]
 
 export default function WritePage() {
+  return (
+    <Suspense>
+      <WritePageInner />
+    </Suspense>
+  )
+}
+
+function WritePageInner() {
   const searchParams = useSearchParams()
   const [step, setStep] = useState<Step>('input')
   const [keyword, setKeyword] = useState(searchParams.get('keyword') || '')
