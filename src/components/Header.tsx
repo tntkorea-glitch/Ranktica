@@ -8,7 +8,7 @@ export default function Header({ title }: { title?: string }) {
 
   return (
     <header className="h-14 flex items-center justify-between px-4 md:px-6 bg-white border-b border-border sticky top-0 z-30">
-      <h1 className="text-lg font-semibold text-foreground">{title || 'Ranktica'}</h1>
+      <h1 className="text-lg font-semibold text-foreground">{title || 'Datica'}</h1>
       {user && (
         <div className="flex items-center gap-3">
           <span className="text-sm text-gray-500 hidden sm:block">{user.name}님</span>
