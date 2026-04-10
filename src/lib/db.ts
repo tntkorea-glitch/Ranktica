@@ -8,7 +8,7 @@ function createTursoClient(): Client {
   const url = process.env.TURSO_DATABASE_URL
   const authToken = process.env.TURSO_AUTH_TOKEN
   if (!url) {
-    return createClient({ url: 'file:./data/panda-rank.db' })
+    return createClient({ url: 'file:./data/ranktica.db' })
   }
   return createClient({ url, authToken })
 }
