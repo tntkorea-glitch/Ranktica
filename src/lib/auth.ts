@@ -4,7 +4,7 @@ import { cookies } from 'next/headers'
 const JWT_SECRET = new TextEncoder().encode(
   process.env.JWT_SECRET || 'ranktica-jwt-secret-change-in-production'
 )
-const COOKIE_NAME = 'panda-rank-token'
+const COOKIE_NAME = 'ranktica-token'
 
 export interface SessionUser {
   id: string
